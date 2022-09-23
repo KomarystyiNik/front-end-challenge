@@ -1,0 +1,14 @@
+.tableRow {
+}
+
+.tableRow:nth-child(odd) {
+  background-color: #e7e9eb;
+}
+
+.tableRow:nth-child(even) {
+  background-color: #ffffff;
+}
+
+.highlighted {
+  border: 2px solid #fa4914;
+}

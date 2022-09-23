@@ -1,7 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
-ReactDOM.render(
-  <p>Hello</p>,
-  document.getElementById('app'),
-)
+import './index.css';
+import { TablePage } from './pages/TablePage';
+
+const App = () => <TablePage />;
+
+const container = document.getElementById('app');
+const root = createRoot(container);
+root.render(<App />);

@@ -1,0 +1,7 @@
+.fieldset {
+  padding: 1rem;
+}
+
+.fieldset > :not(:last-child) {
+  margin-bottom: 1rem;
+}

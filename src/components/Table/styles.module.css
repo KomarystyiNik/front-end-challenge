@@ -1,0 +1,7 @@
+.table {
+  width: 50%;
+  min-width: 500px;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
